@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "newsletter", "newsletter.pyproj", "{0371F8DA-421E-4F82-A51A-DB31032A1F26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0371F8DA-421E-4F82-A51A-DB31032A1F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0371F8DA-421E-4F82-A51A-DB31032A1F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0371F8DA-421E-4F82-A51A-DB31032A1F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0371F8DA-421E-4F82-A51A-DB31032A1F26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C108AB3-4280-4343-BA1A-6258305CF843}
+	EndGlobalSection
+EndGlobal

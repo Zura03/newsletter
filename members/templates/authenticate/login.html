@@ -1,0 +1,40 @@
+{% extends 'partials/base.html' %}
+{% block title %}Login Page {% endblock %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+<main class="px-3">
+    {% for message in messages %}
+    <div class="alert alert-success">
+        {{ message }}
+    </div>
+    {% endfor %}
+    <div class="row mt-5 pt-5" style="margin-bottom:120px">
+        <div class="col-md-6 offset-md-3">
+            <h1 class="text-center">Login</h1>
+            <div class="form-group d-flex justify-content-center">
+                <form method="POST">
+                    {% csrf_token %}
+                    <div class="col-md-12">
+
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label"></label>
+                                <input type="text" class="form-control" name="username" aria-describedby="emailHelp" placeholder="Enter your username">
+                            </div>
+                            <div class="mb-3">
+                                <input type="password" class="form-control" name="password" placeholder="Enter your password">
+                            </div>
+                    </div>
+                    <button class="btn btn-lg btn-light fw-bold border-white bg-white ml-9 mt-3" type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="mt-auto text-white-50">
+    <p>Newsletter management system by Yashasvi & Abhiram.</p>
+</footer>
+{% endblock %}
